@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4416B2C519A5947D009194A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4416B2C419A5947D009194A5 /* Cocoa.framework */; };
+		4416B2CF19A5947D009194A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4416B2CD19A5947D009194A5 /* InfoPlist.strings */; };
+		4416B2D119A5947D009194A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416B2D019A5947D009194A5 /* main.m */; };
+		4416B2D519A5947D009194A5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4416B2D319A5947D009194A5 /* Credits.rtf */; };
+		4416B2D819A5947D009194A5 /* biAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416B2D719A5947D009194A5 /* biAppDelegate.m */; };
+		4416B2DB19A5947D009194A5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4416B2D919A5947D009194A5 /* MainMenu.xib */; };
+		4416B2DD19A5947D009194A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4416B2DC19A5947D009194A5 /* Images.xcassets */; };
+		4416B2E419A5947D009194A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4416B2E319A5947D009194A5 /* XCTest.framework */; };
+		4416B2E519A5947D009194A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4416B2C419A5947D009194A5 /* Cocoa.framework */; };
+		4416B2ED19A5947D009194A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4416B2EB19A5947D009194A5 /* InfoPlist.strings */; };
+		4416B2EF19A5947D009194A5 /* MyFirstCocoaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416B2EE19A5947D009194A5 /* MyFirstCocoaAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4416B2E619A5947D009194A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4416B2B919A5947C009194A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4416B2C019A5947D009194A5;
+			remoteInfo = MyFirstCocoaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4416B2C119A5947D009194A5 /* MyFirstCocoaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstCocoaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4416B2C419A5947D009194A5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4416B2C719A5947D009194A5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4416B2C819A5947D009194A5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4416B2C919A5947D009194A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4416B2CC19A5947D009194A5 /* MyFirstCocoaApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstCocoaApp-Info.plist"; sourceTree = "<group>"; };
+		4416B2CE19A5947D009194A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4416B2D019A5947D009194A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4416B2D219A5947D009194A5 /* MyFirstCocoaApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstCocoaApp-Prefix.pch"; sourceTree = "<group>"; };
+		4416B2D419A5947D009194A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4416B2D619A5947D009194A5 /* biAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = biAppDelegate.h; sourceTree = "<group>"; };
+		4416B2D719A5947D009194A5 /* biAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = biAppDelegate.m; sourceTree = "<group>"; };
+		4416B2DA19A5947D009194A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4416B2DC19A5947D009194A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4416B2E219A5947D009194A5 /* MyFirstCocoaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstCocoaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4416B2E319A5947D009194A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4416B2EA19A5947D009194A5 /* MyFirstCocoaAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstCocoaAppTests-Info.plist"; sourceTree = "<group>"; };
+		4416B2EC19A5947D009194A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4416B2EE19A5947D009194A5 /* MyFirstCocoaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstCocoaAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4416B2BE19A5947D009194A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4416B2C519A5947D009194A5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4416B2DF19A5947D009194A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4416B2E519A5947D009194A5 /* Cocoa.framework in Frameworks */,
+				4416B2E419A5947D009194A5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4416B2B819A5947C009194A5 = {
+			isa = PBXGroup;
+			children = (
+				4416B2CA19A5947D009194A5 /* MyFirstCocoaApp */,
+				4416B2E819A5947D009194A5 /* MyFirstCocoaAppTests */,
+				4416B2C319A5947D009194A5 /* Frameworks */,
+				4416B2C219A5947D009194A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4416B2C219A5947D009194A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4416B2C119A5947D009194A5 /* MyFirstCocoaApp.app */,
+				4416B2E219A5947D009194A5 /* MyFirstCocoaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4416B2C319A5947D009194A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4416B2C419A5947D009194A5 /* Cocoa.framework */,
+				4416B2E319A5947D009194A5 /* XCTest.framework */,
+				4416B2C619A5947D009194A5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4416B2C619A5947D009194A5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4416B2C719A5947D009194A5 /* AppKit.framework */,
+				4416B2C819A5947D009194A5 /* CoreData.framework */,
+				4416B2C919A5947D009194A5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4416B2CA19A5947D009194A5 /* MyFirstCocoaApp */ = {
+			isa = PBXGroup;
+			children = (
+				4416B2D619A5947D009194A5 /* biAppDelegate.h */,
+				4416B2D719A5947D009194A5 /* biAppDelegate.m */,
+				4416B2D919A5947D009194A5 /* MainMenu.xib */,
+				4416B2DC19A5947D009194A5 /* Images.xcassets */,
+				4416B2CB19A5947D009194A5 /* Supporting Files */,
+			);
+			path = MyFirstCocoaApp;
+			sourceTree = "<group>";
+		};
+		4416B2CB19A5947D009194A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4416B2CC19A5947D009194A5 /* MyFirstCocoaApp-Info.plist */,
+				4416B2CD19A5947D009194A5 /* InfoPlist.strings */,
+				4416B2D019A5947D009194A5 /* main.m */,
+				4416B2D219A5947D009194A5 /* MyFirstCocoaApp-Prefix.pch */,
+				4416B2D319A5947D009194A5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4416B2E819A5947D009194A5 /* MyFirstCocoaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4416B2EE19A5947D009194A5 /* MyFirstCocoaAppTests.m */,
+				4416B2E919A5947D009194A5 /* Supporting Files */,
+			);
+			path = MyFirstCocoaAppTests;
+			sourceTree = "<group>";
+		};
+		4416B2E919A5947D009194A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4416B2EA19A5947D009194A5 /* MyFirstCocoaAppTests-Info.plist */,
+				4416B2EB19A5947D009194A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4416B2C019A5947D009194A5 /* MyFirstCocoaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4416B2F219A5947D009194A5 /* Build configuration list for PBXNativeTarget "MyFirstCocoaApp" */;
+			buildPhases = (
+				4416B2BD19A5947D009194A5 /* Sources */,
+				4416B2BE19A5947D009194A5 /* Frameworks */,
+				4416B2BF19A5947D009194A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFirstCocoaApp;
+			productName = MyFirstCocoaApp;
+			productReference = 4416B2C119A5947D009194A5 /* MyFirstCocoaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4416B2E119A5947D009194A5 /* MyFirstCocoaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4416B2F519A5947D009194A5 /* Build configuration list for PBXNativeTarget "MyFirstCocoaAppTests" */;
+			buildPhases = (
+				4416B2DE19A5947D009194A5 /* Sources */,
+				4416B2DF19A5947D009194A5 /* Frameworks */,
+				4416B2E019A5947D009194A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4416B2E719A5947D009194A5 /* PBXTargetDependency */,
+			);
+			name = MyFirstCocoaAppTests;
+			productName = MyFirstCocoaAppTests;
+			productReference = 4416B2E219A5947D009194A5 /* MyFirstCocoaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4416B2B919A5947C009194A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bi;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SaigonHouston;
+				TargetAttributes = {
+					4416B2E119A5947D009194A5 = {
+						TestTargetID = 4416B2C019A5947D009194A5;
+					};
+				};
+			};
+			buildConfigurationList = 4416B2BC19A5947C009194A5 /* Build configuration list for PBXProject "MyFirstCocoaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4416B2B819A5947C009194A5;
+			productRefGroup = 4416B2C219A5947D009194A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4416B2C019A5947D009194A5 /* MyFirstCocoaApp */,
+				4416B2E119A5947D009194A5 /* MyFirstCocoaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4416B2BF19A5947D009194A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4416B2CF19A5947D009194A5 /* InfoPlist.strings in Resources */,
+				4416B2DD19A5947D009194A5 /* Images.xcassets in Resources */,
+				4416B2D519A5947D009194A5 /* Credits.rtf in Resources */,
+				4416B2DB19A5947D009194A5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4416B2E019A5947D009194A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4416B2ED19A5947D009194A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4416B2BD19A5947D009194A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4416B2D119A5947D009194A5 /* main.m in Sources */,
+				4416B2D819A5947D009194A5 /* biAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4416B2DE19A5947D009194A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4416B2EF19A5947D009194A5 /* MyFirstCocoaAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4416B2E719A5947D009194A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4416B2C019A5947D009194A5 /* MyFirstCocoaApp */;
+			targetProxy = 4416B2E619A5947D009194A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4416B2CD19A5947D009194A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4416B2CE19A5947D009194A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4416B2D319A5947D009194A5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4416B2D419A5947D009194A5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4416B2D919A5947D009194A5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4416B2DA19A5947D009194A5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4416B2EB19A5947D009194A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4416B2EC19A5947D009194A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4416B2F019A5947D009194A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4416B2F119A5947D009194A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4416B2F319A5947D009194A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFirstCocoaApp/MyFirstCocoaApp-Prefix.pch";
+				INFOPLIST_FILE = "MyFirstCocoaApp/MyFirstCocoaApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4416B2F419A5947D009194A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFirstCocoaApp/MyFirstCocoaApp-Prefix.pch";
+				INFOPLIST_FILE = "MyFirstCocoaApp/MyFirstCocoaApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4416B2F619A5947D009194A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyFirstCocoaApp.app/Contents/MacOS/MyFirstCocoaApp";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFirstCocoaApp/MyFirstCocoaApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyFirstCocoaAppTests/MyFirstCocoaAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4416B2F719A5947D009194A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyFirstCocoaApp.app/Contents/MacOS/MyFirstCocoaApp";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFirstCocoaApp/MyFirstCocoaApp-Prefix.pch";
+				INFOPLIST_FILE = "MyFirstCocoaAppTests/MyFirstCocoaAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4416B2BC19A5947C009194A5 /* Build configuration list for PBXProject "MyFirstCocoaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4416B2F019A5947D009194A5 /* Debug */,
+				4416B2F119A5947D009194A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4416B2F219A5947D009194A5 /* Build configuration list for PBXNativeTarget "MyFirstCocoaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4416B2F319A5947D009194A5 /* Debug */,
+				4416B2F419A5947D009194A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4416B2F519A5947D009194A5 /* Build configuration list for PBXNativeTarget "MyFirstCocoaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4416B2F619A5947D009194A5 /* Debug */,
+				4416B2F719A5947D009194A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4416B2B919A5947C009194A5 /* Project object */;
+}
