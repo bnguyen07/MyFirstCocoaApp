@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2BC5590E-4596-48EF-8E56-DD0A4D49B9AF</string>
+	<string>18C948B5-E1E5-4B8F-A6A4-5596EA2D385F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MyFirstCocoaApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/heoiu87/MyFirstCocoaApp</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MyFirstCocoaApp/MyFirstCocoaApp.xcodeproj/project.xcworkspace</string>
+	<string>MyFirstCocoaApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9995F7A4-FD08-43E8-BB39-D147620CE8A7</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
 	<dict>
@@ -26,7 +26,7 @@
 		<string>https://github.com/heoiu87/MyFirstCocoaApp</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/heoiu87/MyFirstCocoaApp/MyFirstCocoaApp/MyFirstCocoaApp.xcodeproj</string>
+	<string>https://github.com/heoiu87/MyFirstCocoaApp/MyFirstCocoaApp.xcodeproj</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -34,8 +34,12 @@
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>9995F7A4-FD08-43E8-BB39-D147620CE8A7</string>
 			<key>IDESourceControlWCCName</key>

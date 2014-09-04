@@ -11,5 +11,11 @@
 @interface biAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *textField;
+@property (weak) IBOutlet NSTextField *myLabel;
+
+-(IBAction)changeLabel:(id)sender;
+
+
 
 @end
